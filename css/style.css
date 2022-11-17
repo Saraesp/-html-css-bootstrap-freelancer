@@ -57,3 +57,18 @@ header{
 #portfolio img{
     width: 100%;
 }
+
+#contact-me label{
+    width: 30%;
+}
+
+#contact-me textarea{
+    height: 130px;
+}
+
+#contact-me button{
+    background-color: rgba(26,188,156,255);
+    font-size: 13px;
+    color: white;
+    width: 60px;
+}
