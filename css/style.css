@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.content, .content-title{
-   background-color: antiquewhite;
-}
-
 .background-bl{
     background-color: rgb(63, 85, 123);
     height: 100px;
@@ -27,7 +23,7 @@ header{
     left: 0;
 }
 
-header .font-size-11px{
+.font-size-11px{
     font-size: 11px;
 }
 
@@ -37,15 +33,27 @@ header .font-size-11px{
     background-color: rgba(26,188,156,255);
 }
 
-#start .content{
-    height: 150px;
-}
-
 .text-black{
     color: black;
 }
 
 .start-content img{
     width: 100%;
-    height: 150px;
+    height: 170px;
+}
+
+#portfolio .container{
+    padding: 40px;
+}
+
+#about .container{
+    padding: 0 150px;
+}
+
+#about .button-size{
+    font-size: 10px;
+}
+
+#portfolio img{
+    width: 100%;
 }
