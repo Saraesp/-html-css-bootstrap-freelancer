@@ -4,14 +4,8 @@
     box-sizing: border-box;
 }
 
-.border-black{
-    border: 1px solid black;
-    color: white;
-}
-
-.background-blue{
-    background-color: rgba(44,62,80,255);
-    height: 50px;
+.content, .content-title{
+   background-color: antiquewhite;
 }
 
 .background-bl{
@@ -19,11 +13,39 @@
     height: 100px;
 }
 
-.background-green{
+.content-title{
+    height: 100px;
+}
+
+/* HEADER */
+header{
+    background-color: rgba(44,62,80,255);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .font-size-11px{
+    font-size: 11px;
+}
+
+
+/* MAIN */
+#start, #about{
     background-color: rgba(26,188,156,255);
-    height: 300px
+}
+
+#start .content{
+    height: 150px;
 }
 
 .text-black{
     color: black;
+}
+
+.start-content img{
+    width: 100%;
+    height: 150px;
 }
