@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-.background-bl{
+.background-blue{
     background-color: rgb(63, 85, 123);
-    height: 100px;
+}
+
+.background-darkb{
+    background-color: rgb(43, 63, 97);
 }
 
 .content-title{
@@ -33,6 +36,19 @@ header{
     background-color: rgba(26,188,156,255);
 }
 
+.line::after, .line::before{
+    content: '';
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.line i{
+    margin: 0 10px;
+}
+
 .text-black{
     color: black;
 }
@@ -46,12 +62,16 @@ header{
     padding: 40px;
 }
 
-#about .container{
-    padding: 0 150px;
-}
-
 #about .button-size{
     font-size: 10px;
+}
+
+#about .p-left{
+    padding-left: 50px;
+}
+
+#about .p-right{
+    padding-right: 50px;
 }
 
 #portfolio img{
@@ -71,4 +91,15 @@ header{
     font-size: 13px;
     color: white;
     width: 60px;
+}
+
+/* FOOTER */
+#info .content{
+    font-size: 15px;
+}
+
+#info .content a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(26,188,156,255);
 }
