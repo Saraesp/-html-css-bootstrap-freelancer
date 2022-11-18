@@ -30,7 +30,13 @@ header{
     font-size: 11px;
 }
 
-
+.fa-bars{
+    margin-top: 5px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 /* MAIN */
 #start, #about{
     background-color: rgba(26,188,156,255);
